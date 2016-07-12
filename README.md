@@ -10,6 +10,7 @@ Required
 - Client (mobile phones : iOS/Android or web : Javascript) has braintree SDK.
 
 FLOW
+
 1. Client first hit a server api for clientToken; server creates that client token on the credentials stored in server(sandbox and live)
 
 1. Client uses that client token to tokenize credit card of USER(customer) using braintree SDK. [That token always changes for same credit card.]
